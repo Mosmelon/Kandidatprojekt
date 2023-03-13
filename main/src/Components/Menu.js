@@ -1,14 +1,14 @@
 import React, {useEffect, useState, useRef, useTransition} from 'react';
 import { NavLink, Link, useLocation} from 'react-router-dom';
-import $ from "jquery";
-import { Button } from "rsuite";
+
 import styled, {keyframes} from 'styled-components';
 import {RiUserFill,RiUserLine, RiHomeHeartFill,RiHomeHeartLine, RiBarChart2Fill,RiBarChart2Line , RiMenuFill} from "react-icons/ri";
-import "rsuite/dist/rsuite.min.css";
+
 import Vector from '../Bilder/Vector.png';
 import Dropdownmenu from './Dropdownmenu';
-
-
+import "rsuite/dist/rsuite.min.css";
+// import $ from "jquery";
+// import { Button } from "rsuite";
 const Container = styled.div`
 width: auto;
 height: auto;
@@ -90,7 +90,7 @@ const BottumMenu = () =>{
     const [isActive, setIsActive] = useState(false); // usestate för om knappen är aktiverad eller inte
     const location = useLocation(); //hämta vilken "sida" man är på
    // console.log(location.pathname) //pathname hämtar adressen
-   const [value, setValue] = React.useState(0);
+
 return(
 
  

@@ -79,7 +79,7 @@ const Profile =() =>{
                 <Profil> 
                     
                     <Circle/>
-                    <Text>Förnamn Efternamn <RiSettings5Fill color={darkgreen}/></Text>
+                    <Text>Förnamn, Efternamn <RiSettings5Fill color={darkgreen}/></Text>
                     
                 
                 </Profil>
