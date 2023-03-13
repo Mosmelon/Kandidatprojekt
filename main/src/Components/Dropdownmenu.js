@@ -1,10 +1,10 @@
 import React, {useEffect, useState, useRef} from 'react';
 import { NavLink, Link, useLocation} from 'react-router-dom';
-import $ from "jquery";
-import { Button } from "rsuite";
+//import $ from "jquery";
+//import { Button } from "rsuite";
 import styled, {keyframes} from 'styled-components';
 import {RiUserFill,RiUserLine, RiHomeHeartFill,RiHomeHeartLine, RiBarChart2Fill,RiBarChart2Line , RiMenuFill} from "react-icons/ri";
-import "rsuite/dist/rsuite.min.css";
+//import "rsuite/dist/rsuite.min.css";
 import Vector from '../Bilder/Vector.png';
 
 const Bar = styled.div`
