@@ -1,7 +1,11 @@
 
 
 import Home from './Components/Home';
-import Info from './Components/Info';
+import Stat from './Components/Stat';
+import Profile from './Components/Profile';
+import Startpage from './Components/Startpage';
+import Createaccount from './Components/Createaccount';
+
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -10,6 +14,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+
+
 
 export default function App() {
   
@@ -20,8 +26,11 @@ export default function App() {
    
        <Router>
           <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="/Info" element={<Info/>}/>
+            <Route path="/" element={<Startpage/>}/>
+            <Route path="/Home" element={<Home/>}/>
+            <Route path="/Stat" element={<Stat/>}/>
+            <Route path="/Profile" element={<Profile/>}/>
+            <Route path="/Createaccount" element={<Createaccount/>}/>
 
           </Routes>
       </Router>
