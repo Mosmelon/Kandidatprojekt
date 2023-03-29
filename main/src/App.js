@@ -5,7 +5,7 @@ import Stat from './Components/Stat';
 import Profile from './Components/Profile';
 import Startpage from './Components/Startpage';
 import Createaccount from './Components/Createaccount';
-
+import Graph2 from './Components/Graph2';
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -23,7 +23,6 @@ export default function App() {
 
   return (
   
-   
        <Router>
           <Routes>
             <Route path="/" element={<Startpage/>}/>
@@ -31,7 +30,7 @@ export default function App() {
             <Route path="/Stat" element={<Stat/>}/>
             <Route path="/Profile" element={<Profile/>}/>
             <Route path="/Createaccount" element={<Createaccount/>}/>
-
+            <Route path="/Graph2" element={<Graph2/>}/>
           </Routes>
       </Router>
     
