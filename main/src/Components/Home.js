@@ -4,6 +4,7 @@ import React, {useEffect, useState, useRef} from 'react';
 import { Link } from 'react-router-dom';
 import Navbar from './Navbar';
 import styled from "styled-components";
+import EnergyFacts from './EnergyFacts';
 
 
 //import Menu from './Menu';
@@ -37,7 +38,7 @@ bottom: 50;
 `
 const Blockbig = styled.div`
 margin: 0;
-height: 20vw;
+height: 50vw;
 width: 90%;
 background-color: white;
 text-color: black;
@@ -64,7 +65,9 @@ const Home=()=> {
             <Navbar/>
             <Background>
                
-                <Blockbig>Hejsan jag skapar ett kodskelett</Blockbig>
+                <Blockbig>Hejsan jag skapar ett kodskelett
+                <EnergyFacts />
+                </Blockbig>
 
                 <Row>
                     <Blocksmall>HejsanHejsan</Blocksmall>
