@@ -8,10 +8,10 @@ const Data = () => {
       month: i,
       electricity: Math.floor(Math.random() * 1000),
       gas: Math.floor(Math.random() * 500),
-      water: Math.floor(Math.random() * 10000)
+      water: Math.floor(Math.random() * 1000)
     });
   }
   return data;
 };
-
+console.log(Data());
 export default Data;

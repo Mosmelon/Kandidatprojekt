@@ -20,7 +20,7 @@ const Stat=()=> {
     return (
         <div>
          <Graph2 style={{ marginTop: "20px", marginLeft: "10px" }} />
-         <Graph3/>
+         <Graph3 style={{ marginTop: "20px", marginLeft: "10px" }}/>
         <Navbar />
       </div>
     );
