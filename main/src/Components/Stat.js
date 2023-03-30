@@ -7,6 +7,7 @@ import Home from "./Home";
 import Menu from './Menu';
 import Navbar from './Navbar';
 import styled from 'styled-components';
+import Graph2 from "./Graph2"
 
 
 const Text = styled.h1`
@@ -16,9 +17,10 @@ text-size: 20vw;
 
 const Stat=()=> {
     return (
-
-        <Navbar/>
-   
+        <div>
+         <Graph2 style={{ marginTop: "20px", marginLeft: "10px" }} />
+        <Navbar />
+      </div>
     );
   }
   
